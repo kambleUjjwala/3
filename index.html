@@ -1,0 +1,277 @@
+
+
+<style>
+	/* customizable heart styling */
+	.heart {
+	  color: #800000;
+	  font-size: 2em;
+	  font-family: Arial, sans-serif;
+	  text-shadow: 0 0 5px #ffffff;
+	}
+	
+
+	@-webkit-keyframes hearts-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes hearts-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes hearts-fall{0%{top:-10%}100%{top:100%}}@keyframes hearts-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.heart{position:fixed;top:-10%;z-index:9999;-webkit-animation-name:hearts-fall,hearts-shake;animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:hearts-fall,hearts-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.heart:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.heart:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.heart:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.heart:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.heart:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.heart:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.heart:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.heart:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.heart:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.heart:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.heart:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.heart:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+	</style>
+
+
+<div class="hearts" aria-hidden="true">
+	  <div class ="heart">
+	    &#10084;
+	  </div>
+    <div class ="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+    &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+        <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+        <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    
+
+
+
+
+
+
+
+<div id="wrap">
+		<h1>Happy birth Day Jaan !</h1>
+		<input type="checkbox" id="checkbox" class="checkbox">
+		<div id="letter_wrap">
+			<label for="checkbox" class="handle" onclick></label>
+			<div id="back"></div>
+			<div id="flap">
+				<div id="closed_flap"></div>
+				<div id="open_flap"></div>
+			</div>
+			<div id="letter">
+				<p>Hello Rushi...,</p>
+				</br>
+				<p>When I think about some of my favorite memories, you’re always a part of them. Cheers to more fun times together. Best wishes on your birthday!
+</br>
+हंसता रहता हूँ तुझसे मिल कर क्यूँ आजकल
+</br>
+बदले बदले हैं मेरे तेवर क्यूँ आजकल'
+</br>
+आँखें मेरी हर जगह
+</br>
+ढूंढ़ें तुझे बेवजह
+
+ये मैं हूँ या कोई और है मेरी तरह
+</br>
+कैसे हुआ, कैसे हुआ
+तू इतना ज़रूरी कैसे हुआ........
+
+</br>
+</p>
+				</br>
+					<p>You are the best person ever!</p>
+				</br>
+				<p>From-</p>
+				<p>Ujjwala..</p>
+				<p>❤</p>
+			</div>
+			<div id="front"></div>
+		</div>
+	</div>
+	<script>
+	document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
+	</script>
+	
+	<style>
+	body, div, h1, h2, form, fieldset, input, textarea, footer, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+body { 
+  
+	-webkit-perspective:800px;
+	
+	color: #7c7873;
+-webkit-animation: bugfix infinite 1s; 
+}
+
+@-webkit-keyframes bugfix { 
+  from {padding:0;} 
+  to {padding:0;} 
+}
+
+p {
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	text-shadow: 0 1px 0 #fff;
+	opacity: 0;
+}
+
+#wrap{
+	width: 530px;
+	height: 1000px;
+	margin: 20px auto 0;
+}
+
+h1{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 48px;
+	margin: 50px 0;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+}
+
+#letter_wrap {
+	overlay:hidden;
+	height: 446px;
+	position:relative;
+	top: 0px;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+#back {
+	position:absolute;
+	bottom:128px;
+	left:0px;
+	background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/144467/before1.png');
+	width:530px;
+	height:132px;
+}
+
+#flap{
+	position:absolute;
+	bottom: 65px;
+	left: 0px;
+	width: 530px;
+	height: 390px;
+	-webkit-transform-style:preserve-3d;
+	z-index: 5;
+	-webkit-transition: all 1.5s 1s linear;
+}
+
+#flap>div{
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	display:block;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#open_flap {
+	top:195px;
+	background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/144467/flap.png') no-repeat;
+	-webkit-transform: rotateY(-180deg);
+}
+
+#closed_flap {
+	top:0%;
+	background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/144467/flap_closed.png') no-repeat 0 195px;
+}
+
+
+#front {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/144467/after.png');
+	width:530px;
+	height:260px;
+}
+
+.checkbox{
+	position: absolute;
+	opacity: 0;
+	top:0;
+	left:0;
+	width:70%;
+	height: 70%;
+	z-index: 100;
+}
+
+#checkbox:checked + #letter_wrap {
+	height:776px;
+	top:-200px;
+	-webkit-transition: all 1s ease-in-out 2s;
+	-moz-transition: all 1s ease-in-out 2s;
+	-o-transition: all 1s ease-in-out 2s;
+	transition: all 1s ease-in-out 2s;
+}
+
+#letter {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	background: #ffc url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/144467/letter_bg.png');
+	position: relative;
+	top:200px;
+	overlay: hidden;
+	height: 190px;
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border:1px solid #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
+	-moz-box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 14px #fff;
+	box-shadow: 0px 0px 3px #9d9d9d, inset 0px 0px 27px #fff;
+}
+
+#checkbox:checked + #letter_wrap>#flap{
+	-webkit-transition: all 2s linear;
+	transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+	z-index: -1;
+}
+
+#checkbox:checked +#letter_wrap>#letter{
+	height:520px;
+	-webkit-transition: all 1s ease-in-out 2s;
+	-moz-transition: all 1s ease-in-out 2s;
+	-o-transition: all 1s ease-in-out 2s;
+	transition: all 1s ease-in-out 2s;
+}
+
+
+#checkbox:checked +#letter_wrap>#letter>p{
+	opacity: 1;
+	-webkit-transition: opacity 1s ease-in-out 2s;
+	-moz-transition: opacity 1s ease-in-out 2s;
+	-o-transition: opacity 1s ease-in-out 2s;
+	transition: opacity 1s ease-in-out 2s;
+}
+	</style>
